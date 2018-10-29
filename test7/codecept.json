@@ -1,0 +1,23 @@
+{
+  "tests": "./*_test.js",
+  "timeout": 10000,
+  "output": "./output",
+  "helpers": {
+    "WebDriverIO": {
+      "url": "http://localhost",
+      "browser": "chrome",
+	  "smartWait": 5000,
+	  "desiredCapabilities": {
+         "chromeOptions": {
+           "args": [ "--headless", "--disable-gpu", "--window-size=1024,768" ]
+         }
+       }
+    }
+  },
+  "include": {
+    "I": "./steps_file.js"
+  },
+  "bootstrap": false,
+  "mocha": {},
+  "name": "test7"
+}
