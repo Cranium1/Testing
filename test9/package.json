@@ -4,7 +4,8 @@
   "description": "workshop 30/10",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "codeceptjs run --steps",
+	"debug": "codeceptjs run --debug"
   },
   "author": "CP",
   "license": "ISC"
