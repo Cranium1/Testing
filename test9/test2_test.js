@@ -1,7 +1,7 @@
 
-Feature('page visiting');
+Feature('page visiting and grab');
 
-Scenario('Google basics', async (I, googleEntryPage, googleResultPage) => {
+Scenario('Google PO', async (I, googleEntryPage, googleResultPage) => {
 //I.amOnPage('https://www.google.com/');
 //I.see('Google');
 //I.waitForElement('#lst-ib', 20);
